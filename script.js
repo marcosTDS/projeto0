@@ -237,7 +237,7 @@ function enviarWhatsApp() {
     let bebida = [];
 
     
-    const pagamento = document.getElementById('forma-pagamento').value;
+    const pagamento = document.getElementById('forma pagamento').value;
 
     const rua = document.getElementById('rua').value;
     const bairro = document.getElementById('bairro').value;
