@@ -397,7 +397,7 @@ function enviarWhatsApp() {
     if (document.getElementById('REFRIGERANTE 1LT').checked) {
         const quantidade = parseInt(document.getElementById('REFRIGERANTE 1LT-quantidade').value);
         bebida.push({item:'REFRIGERANTE 1LT', quantidade: quantidade});
-        total += precoBebida['REFRIGERANTE 1LT'] * quantidade
+        total += precoBebida['REFRIGERANTE(1LT)'] * quantidade
     }
 
     const taxaEntrega = 10.00;
